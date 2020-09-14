@@ -1,0 +1,44 @@
+@import "./normalize.css";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1300px){
+  .max-box{
+      width: 1300px;
+  }
+}
+
+
+/* -----------------段发钰添加开始----------------- */
+.w {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+button {
+  outline: none;
+}
+
+a {
+  color: #52bfff;
+}
+
+a:hover {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+/* -----------------段发钰添加结束----------------- */

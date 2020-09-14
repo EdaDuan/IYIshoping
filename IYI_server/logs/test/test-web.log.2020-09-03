@@ -1,0 +1,353 @@
+2020-09-03 01:05:40,611 ERROR 137204 [-/127.0.0.1/-/3ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 137204
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 01:07:12,657 ERROR 137204 [-/127.0.0.1/-/2ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 137204
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 01:08:29,106 ERROR 70440 [-/127.0.0.1/-/4ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 70440
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 01:10:23,904 ERROR 131020 [-/127.0.0.1/-/3ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 131020
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 01:14:39,257 ERROR 79760 [-/127.0.0.1/-/3ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79760
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 01:18:51,160 ERROR 180400 [-/127.0.0.1/-/4ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 180400
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 01:38:10,703 ERROR 144988 [-/127.0.0.1/-/3ms GET /getCartData?id=38] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select 
+goods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select \ngoods.id,goods.name,goods.price,goods.cover,goods.rest,shopcart.countfrom user join shopcart on user.id = shopcart.useridjoin goods on shopcart.goodsid = goods.id where user.id='38' and shopcart.state = 0"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 144988
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 19:00:58,733 ERROR 64172 [-/127.0.0.1/-/5ms POST /updataGoods] nodejs.WARN_DATA_TRUNCATEDError: WARN_DATA_TRUNCATED: Data truncated for column 'rest' at row 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update goods set name='商品2',price='12313',descp='31313',type='31313',rest='313啊啊啊' where id='43';
+code: "WARN_DATA_TRUNCATED"
+errno: 1265
+sqlMessage: "Data truncated for column 'rest' at row 1"
+sqlState: "01000"
+index: 0
+sql: "update goods set name='商品2',price='12313',descp='31313',type='31313',rest='313啊啊啊' where id='43';"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "WARN_DATA_TRUNCATEDError"
+pid: 64172
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 19:02:06,605 ERROR 64172 [-/127.0.0.1/-/36ms POST /updataGoods] nodejs.ReferenceError: file is not defined
+    at uploadPicService.updataGoods (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\service\uploadPicService.js:82:65)
+    at uploadPicController.updataGoods (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\uploadPicController.js:17:53)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 64172
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 19:06:21,231 ERROR 100800 [-/127.0.0.1/-/56ms POST /updataGoods] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'desimg' at row 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update goods set name='商品3',price='2',descp='2',type='2',rest='2',cover='http://localhost:7001/public/goodsCover/1599131181215山水倒影简约设计4k壁纸_彼岸图网.jpg',desimg='http://localhost:7001/public/goodsDesImg/1599131181218be735435c873476d8216d1d2ce2fc911.jpg http://localhost:7001/public/goodsDesImg/1599131181220ChMkJ1waFUGIBMvsAADsgnO1JTEAAt4CwFrsoAAAOya478.jpg http://localhost:7001/public/goodsDesImg/1599131181223山水倒影简约设计4k壁纸_彼岸图网.jpg' where id='44';
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'desimg' at row 1"
+sqlState: "22001"
+index: 0
+sql: "update goods set name='商品3',price='2',descp='2',type='2',rest='2',cover='http://localhost:7001/public/goodsCover/1599131181215山水倒影简约设计4k壁纸_彼岸图网.jpg',desimg='http://localhost:7001/public/goodsDesImg/1599131181218be735435c873476d8216d1d2ce2fc911.jpg http://localhost:7001/public/goodsDesImg/1599131181220ChMkJ1waFUGIBMvsAADsgnO1JTEAAt4CwFrsoAAAOya478.jpg http://localhost:7001/public/goodsDesImg/1599131181223山水倒影简约设计4k壁纸_彼岸图网.jpg' where id='44';"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_DATA_TOO_LONGError"
+pid: 100800
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 19:08:17,547 ERROR 100800 [-/::1/-/0ms GET /public/goodsCover/1599131156058%E5%B1%B1%E6%B0%B4%E5%80%92%E5%BD%B1%E7%AE%80%E7%BA%A6%E8%AE%BE%E8%AE%A14k%E5%A3%81%E7%BA%B8_%E5%BD%BC%E5%B2%B8%E5%9B%BE%E7%BD%91.jpg] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\public\goodsCover\1599131156058山水倒影简约设计4k壁纸_彼岸图网.jpg'
+ENOENTError: ENOENT: no such file or directory, stat 'C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\public\goodsCover\1599131156058山水倒影简约设计4k壁纸_彼岸图网.jpg'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "C:\\Users\\朱大哥\\Desktop\\IYIshopping\\iyiserver\\app\\public\\goodsCover\\1599131156058山水倒影简约设计4k壁纸_彼岸图网.jpg"
+name: "ENOENTError"
+pid: 100800
+hostname: LAPTOP-DG56T37L
+
+2020-09-03 22:38:33,673 ERROR 76548 [-/127.0.0.1/-/52ms POST /uploadGoods] nodejs.ReferenceError: id is not defined
+    at uploadPicService.uploadGoods (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\service\uploadPicService.js:157:102)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async uploadPicController.uploadGoods (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\uploadPicController.js:22:17)
+    at async C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 76548
+hostname: LAPTOP-DG56T37L
+

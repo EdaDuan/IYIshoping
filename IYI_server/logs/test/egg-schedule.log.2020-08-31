@@ -1,0 +1,297 @@
+2020-08-31 11:23:43,534 INFO 31880 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61576468ms at 2020-09-01 04:30:00.002
+2020-08-31 11:23:43,535 INFO 31880 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 45376466ms at 2020-09-01 00:00:00.001
+2020-08-31 11:23:43,535 INFO 31880 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45377465ms at 2020-09-01 00:00:01.000
+2020-08-31 11:23:43,374 INFO 32496 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 11:23:43,374 INFO 32496 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 11:23:43,374 INFO 32496 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 11:30:03,966 INFO 30772 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61196037ms at 2020-09-01 04:30:00.003
+2020-08-31 11:30:03,966 INFO 30772 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 44996034ms at 2020-09-01 00:00:00.000
+2020-08-31 11:30:03,966 INFO 30772 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44997034ms at 2020-09-01 00:00:01.000
+2020-08-31 11:30:03,819 INFO 31880 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 11:30:03,819 INFO 31880 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 11:30:03,819 INFO 31880 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 11:34:43,639 INFO 33828 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60916362ms at 2020-09-01 04:30:00.001
+2020-08-31 11:34:43,640 INFO 33828 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 44716360ms at 2020-09-01 00:00:00.000
+2020-08-31 11:34:43,640 INFO 33828 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44717360ms at 2020-09-01 00:00:01.000
+2020-08-31 11:34:43,484 INFO 33908 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 11:34:43,484 INFO 33908 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 11:34:43,484 INFO 33908 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 11:36:51,348 INFO 21160 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60788654ms at 2020-09-01 04:30:00.001
+2020-08-31 11:36:51,348 INFO 21160 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 44588652ms at 2020-09-01 00:00:00.000
+2020-08-31 11:36:51,348 INFO 21160 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44589652ms at 2020-09-01 00:00:01.000
+2020-08-31 11:36:51,199 INFO 31120 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 11:36:51,199 INFO 31120 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 11:36:51,199 INFO 31120 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 11:37:51,891 INFO 29592 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60728111ms at 2020-09-01 04:30:00.002
+2020-08-31 11:37:51,891 INFO 29592 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 44528109ms at 2020-09-01 00:00:00.000
+2020-08-31 11:37:51,892 INFO 29592 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 44529109ms at 2020-09-01 00:00:01.001
+2020-08-31 11:37:51,740 INFO 22284 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 11:37:51,740 INFO 22284 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 11:37:51,740 INFO 22284 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 11:52:10,779 INFO 36060 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59869222ms at 2020-09-01 04:30:00.001
+2020-08-31 11:52:10,780 INFO 36060 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 43669221ms at 2020-09-01 00:00:00.001
+2020-08-31 11:52:10,780 INFO 36060 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43670220ms at 2020-09-01 00:00:01.000
+2020-08-31 11:52:10,627 INFO 36272 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 11:52:10,627 INFO 36272 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 11:52:10,627 INFO 36272 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 12:01:45,859 INFO 37712 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 12:01:45,859 INFO 37712 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 12:01:45,859 INFO 37712 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 12:01:49,139 INFO 35624 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 12:01:49,139 INFO 35624 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 12:01:49,139 INFO 35624 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 12:01:50,200 INFO 30816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 12:01:50,200 INFO 30816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 12:01:50,200 INFO 30816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:41,773 INFO 75412 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:41,773 INFO 75412 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:41,773 INFO 75412 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:42,889 INFO 75040 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:42,889 INFO 75040 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:42,889 INFO 75040 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:44,266 INFO 75072 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:44,266 INFO 75072 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:44,266 INFO 75072 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:46,609 INFO 75004 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:46,609 INFO 75004 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:46,609 INFO 75004 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:47,793 INFO 32292 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:47,793 INFO 32292 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:47,793 INFO 32292 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:49,576 INFO 75492 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:49,576 INFO 75492 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:49,576 INFO 75492 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:52,415 INFO 75152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:52,415 INFO 75152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:52,415 INFO 75152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:54,643 INFO 72736 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:54,643 INFO 72736 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:54,643 INFO 72736 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:40:56,710 INFO 30816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:40:56,710 INFO 30816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:40:56,710 INFO 30816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:41:03,998 INFO 70412 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:41:03,998 INFO 70412 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:41:03,998 INFO 70412 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:41:58,254 INFO 75592 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:41:58,254 INFO 75592 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:41:58,254 INFO 75592 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 14:41:59,809 INFO 74296 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 14:41:59,809 INFO 74296 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 14:41:59,809 INFO 74296 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:04:34,429 INFO 76208 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:04:34,429 INFO 76208 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:04:34,429 INFO 76208 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:04:36,890 INFO 78252 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:04:36,890 INFO 78252 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:04:36,890 INFO 78252 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:04:40,148 INFO 77500 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:04:40,149 INFO 77500 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:04:40,149 INFO 77500 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:04:41,308 INFO 76816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:04:41,308 INFO 76816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:04:41,308 INFO 76816 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:04:54,339 INFO 77848 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:04:54,339 INFO 77848 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:04:54,339 INFO 77848 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:04:55,595 INFO 78308 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:04:55,595 INFO 78308 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:04:55,595 INFO 78308 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:08,478 INFO 76832 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:08,478 INFO 76832 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:08,478 INFO 76832 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:11,901 INFO 77036 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:11,901 INFO 77036 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:11,901 INFO 77036 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:14,044 INFO 78608 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:14,044 INFO 78608 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:14,044 INFO 78608 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:19,915 INFO 78840 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:19,915 INFO 78840 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:19,915 INFO 78840 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:22,029 INFO 77204 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:22,029 INFO 77204 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:22,029 INFO 77204 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:29,387 INFO 76224 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:29,387 INFO 76224 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:29,387 INFO 76224 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:34,591 INFO 73328 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:34,591 INFO 73328 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:34,591 INFO 73328 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:05:36,980 INFO 77076 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:05:36,980 INFO 77076 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:05:36,980 INFO 77076 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:07:04,621 INFO 78224 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:07:04,621 INFO 78224 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:07:04,621 INFO 78224 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:07:15,101 INFO 78264 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:07:15,101 INFO 78264 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:07:15,101 INFO 78264 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:07:23,373 INFO 69716 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:07:23,373 INFO 69716 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:07:23,373 INFO 69716 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:07:24,944 INFO 77836 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:07:24,944 INFO 77836 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:07:24,944 INFO 77836 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:07:25,849 INFO 78104 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:07:25,849 INFO 78104 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:07:25,849 INFO 78104 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 15:46:22,451 INFO 4116 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 45817552ms at 2020-09-01 04:30:00.002
+2020-08-31 15:46:22,451 INFO 4116 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 29617549ms at 2020-09-01 00:00:00.000
+2020-08-31 15:46:22,451 INFO 4116 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 29618549ms at 2020-09-01 00:00:01.000
+2020-08-31 15:46:22,304 INFO 31400 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 15:46:22,304 INFO 31400 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 15:46:22,304 INFO 31400 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:08,243 INFO 91180 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:08,243 INFO 91180 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:08,243 INFO 91180 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:13,093 INFO 94624 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:13,093 INFO 94624 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:13,093 INFO 94624 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:18,541 INFO 94828 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:18,541 INFO 94828 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:18,541 INFO 94828 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:19,622 INFO 93700 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:19,622 INFO 93700 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:19,622 INFO 93700 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:21,916 INFO 93800 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:21,916 INFO 93800 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:21,916 INFO 93800 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:25,495 INFO 90868 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:25,495 INFO 90868 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:25,495 INFO 90868 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:38:33,245 INFO 95076 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:38:33,245 INFO 95076 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:38:33,245 INFO 95076 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:03,883 INFO 94580 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:03,883 INFO 94580 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:03,883 INFO 94580 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:05,018 INFO 93552 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:05,018 INFO 93552 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:05,018 INFO 93552 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:07,446 INFO 94196 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:07,446 INFO 94196 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:07,446 INFO 94196 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:10,717 INFO 94232 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:10,717 INFO 94232 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:10,717 INFO 94232 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:12,131 INFO 87356 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:12,131 INFO 87356 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:12,131 INFO 87356 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:13,057 INFO 93512 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:13,057 INFO 93512 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:13,057 INFO 93512 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:18,969 INFO 87356 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:18,969 INFO 87356 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:18,969 INFO 87356 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:34,166 INFO 94768 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:34,166 INFO 94768 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:34,166 INFO 94768 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:38,729 INFO 92696 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:38,729 INFO 92696 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:38,729 INFO 92696 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:40,053 INFO 94972 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:40,053 INFO 94972 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:40,053 INFO 94972 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:39:54,302 INFO 94492 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:39:54,302 INFO 94492 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:39:54,302 INFO 94492 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:40:00,461 INFO 37368 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:40:00,462 INFO 37368 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:40:00,462 INFO 37368 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 16:40:04,514 INFO 64532 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 16:40:04,514 INFO 64532 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 16:40:04,514 INFO 64532 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:25:13,536 INFO 101536 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39886467ms at 2020-09-01 04:30:00.003
+2020-08-31 17:25:13,536 INFO 101536 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23686464ms at 2020-09-01 00:00:00.000
+2020-08-31 17:25:13,536 INFO 101536 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23687464ms at 2020-09-01 00:00:01.000
+2020-08-31 17:25:13,384 INFO 103152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:25:13,384 INFO 103152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:25:13,384 INFO 103152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:25:21,722 INFO 102568 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:25:21,722 INFO 102568 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:25:21,722 INFO 102568 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:25:36,389 INFO 103152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:25:36,389 INFO 103152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:25:36,389 INFO 103152 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:26:00,993 INFO 88568 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39839009ms at 2020-09-01 04:30:00.002
+2020-08-31 17:26:00,994 INFO 88568 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23639007ms at 2020-09-01 00:00:00.001
+2020-08-31 17:26:00,994 INFO 88568 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23640006ms at 2020-09-01 00:00:01.000
+2020-08-31 17:26:00,840 INFO 100760 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:26:00,840 INFO 100760 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:26:00,840 INFO 100760 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:27:39,681 INFO 104440 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39740322ms at 2020-09-01 04:30:00.003
+2020-08-31 17:27:39,681 INFO 104440 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23540319ms at 2020-09-01 00:00:00.000
+2020-08-31 17:27:39,682 INFO 104440 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23541319ms at 2020-09-01 00:00:01.001
+2020-08-31 17:27:39,525 INFO 100116 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:27:39,525 INFO 100116 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:27:39,525 INFO 100116 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:28:15,591 INFO 104140 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39704411ms at 2020-09-01 04:30:00.002
+2020-08-31 17:28:15,591 INFO 104140 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23504409ms at 2020-09-01 00:00:00.000
+2020-08-31 17:28:15,591 INFO 104140 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23505409ms at 2020-09-01 00:00:01.000
+2020-08-31 17:28:15,444 INFO 99540 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:28:15,444 INFO 99540 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:28:15,444 INFO 99540 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:29:44,620 INFO 103456 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39615382ms at 2020-09-01 04:30:00.002
+2020-08-31 17:29:44,620 INFO 103456 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23415380ms at 2020-09-01 00:00:00.000
+2020-08-31 17:29:44,620 INFO 103456 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23416380ms at 2020-09-01 00:00:01.000
+2020-08-31 17:29:44,465 INFO 103156 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:29:44,465 INFO 103156 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:29:44,465 INFO 103156 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:31:34,339 INFO 11584 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39505663ms at 2020-09-01 04:30:00.002
+2020-08-31 17:31:34,339 INFO 11584 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23305661ms at 2020-09-01 00:00:00.000
+2020-08-31 17:31:34,339 INFO 11584 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23306661ms at 2020-09-01 00:00:01.000
+2020-08-31 17:31:34,192 INFO 12296 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:31:34,192 INFO 12296 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:31:34,192 INFO 12296 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:31:46,173 INFO 106152 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39493830ms at 2020-09-01 04:30:00.002
+2020-08-31 17:31:46,173 INFO 106152 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 23293827ms at 2020-09-01 00:00:00.000
+2020-08-31 17:31:46,173 INFO 106152 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23294827ms at 2020-09-01 00:00:01.000
+2020-08-31 17:31:46,027 INFO 105980 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:31:46,027 INFO 105980 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:31:46,027 INFO 105980 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 17:34:19,546 INFO 101088 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 17:34:19,546 INFO 101088 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 17:34:19,546 INFO 101088 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 18:03:56,359 INFO 109756 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 37563644ms at 2020-09-01 04:30:00.003
+2020-08-31 18:03:56,359 INFO 109756 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 21363641ms at 2020-09-01 00:00:00.000
+2020-08-31 18:03:56,359 INFO 109756 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 21364641ms at 2020-09-01 00:00:01.000
+2020-08-31 18:03:56,211 INFO 7808 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 18:03:56,211 INFO 7808 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 18:03:56,211 INFO 7808 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 18:16:52,172 INFO 113928 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 18:16:52,172 INFO 113928 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 18:16:52,172 INFO 113928 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 20:58:52,280 INFO 128824 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 27067722ms at 2020-09-01 04:30:00.002
+2020-08-31 20:58:52,280 INFO 128824 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 10867720ms at 2020-09-01 00:00:00.000
+2020-08-31 20:58:52,280 INFO 128824 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 10868720ms at 2020-09-01 00:00:01.000
+2020-08-31 20:58:52,131 INFO 128072 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 20:58:52,131 INFO 128072 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 20:58:52,131 INFO 128072 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 22:41:00,511 INFO 134112 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 20939491ms at 2020-09-01 04:30:00.002
+2020-08-31 22:41:00,511 INFO 134112 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 4739489ms at 2020-09-01 00:00:00.000
+2020-08-31 22:41:00,511 INFO 134112 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4740489ms at 2020-09-01 00:00:01.000
+2020-08-31 22:41:00,365 INFO 141368 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 22:41:00,365 INFO 141368 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 22:41:00,365 INFO 141368 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 23:36:27,926 INFO 150708 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 23:36:27,926 INFO 150708 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 23:36:27,926 INFO 150708 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 23:36:28,088 INFO 150620 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17611915ms at 2020-09-01 04:30:00.003
+2020-08-31 23:36:28,088 INFO 150620 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 1411912ms at 2020-09-01 00:00:00.000
+2020-08-31 23:36:28,088 INFO 150620 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1412912ms at 2020-09-01 00:00:01.000
+2020-08-31 23:44:53,925 INFO 151732 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 23:44:53,925 INFO 151732 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 23:44:53,925 INFO 151732 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 23:59:33,469 INFO 145656 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 23:59:33,469 INFO 145656 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 23:59:33,469 INFO 145656 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-31 23:59:35,531 INFO 147272 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-31 23:59:35,532 INFO 147272 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-08-31 23:59:35,532 INFO 147272 [egg-schedule]: register schedule C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-01 00:00:00,002 INFO 147272 [Job#1598889600001546811911548001] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2020-09-01 00:00:00,005 INFO 147272 [Job#1598889600001546811911548001] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 3ms
+2020-09-01 00:00:00,003 INFO 150620 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 86399999ms at 2020-09-02 00:00:00.002
+2020-09-01 00:00:01,002 INFO 150620 [Timer] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399999ms at 2020-09-02 00:00:01.001
+2020-09-01 00:00:01,001 INFO 147272 [Job#1598889601001546821910600001] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-09-01 00:00:01,009 INFO 147272 [Job#1598889601001546821910600001] C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 8ms

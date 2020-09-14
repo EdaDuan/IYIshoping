@@ -1,0 +1,289 @@
+2020-09-05 00:00:01,012 INFO 96748 [egg-logrotator] app logger reload: got log-reload message
+2020-09-05 00:37:05,686 INFO 50244 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:05,708 INFO 50244 [egg-multipart] file mode enable
+2020-09-05 00:37:05,708 INFO 50244 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:05,709 INFO 50244 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:05,821 INFO 50244 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:05,823 INFO 50244 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:05,824 INFO 50244 [egg-security] use noopen middleware
+2020-09-05 00:37:05,825 INFO 50244 [egg-security] use nosniff middleware
+2020-09-05 00:37:05,825 INFO 50244 [egg-security] use xssProtection middleware
+2020-09-05 00:37:05,826 INFO 50244 [egg-security] use xframe middleware
+2020-09-05 00:37:05,827 INFO 50244 [egg-security] use dta middleware
+2020-09-05 00:37:05,827 INFO 50244 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:05,842 INFO 50244 [egg:core] dump config after load, 6ms
+2020-09-05 00:37:05,858 INFO 50244 [egg-watcher:application] watcher start success
+2020-09-05 00:37:05,860 INFO 50244 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:05 GMT+0800 (中国标准时间)
+2020-09-05 00:37:05,867 INFO 50244 [egg:core] dump config after ready, 6ms
+2020-09-05 00:37:11,578 INFO 57296 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:11,603 INFO 57296 [egg-multipart] file mode enable
+2020-09-05 00:37:11,603 INFO 57296 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:11,603 INFO 57296 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:11,720 INFO 57296 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:11,722 INFO 57296 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:11,723 INFO 57296 [egg-security] use noopen middleware
+2020-09-05 00:37:11,724 INFO 57296 [egg-security] use nosniff middleware
+2020-09-05 00:37:11,724 INFO 57296 [egg-security] use xssProtection middleware
+2020-09-05 00:37:11,725 INFO 57296 [egg-security] use xframe middleware
+2020-09-05 00:37:11,725 INFO 57296 [egg-security] use dta middleware
+2020-09-05 00:37:11,725 INFO 57296 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:11,737 INFO 57296 [egg:core] dump config after load, 4ms
+2020-09-05 00:37:11,751 INFO 57296 [egg-watcher:application] watcher start success
+2020-09-05 00:37:11,753 INFO 57296 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:11 GMT+0800 (中国标准时间)
+2020-09-05 00:37:11,759 INFO 57296 [egg:core] dump config after ready, 5ms
+2020-09-05 00:37:14,857 INFO 72128 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:14,882 INFO 72128 [egg-multipart] file mode enable
+2020-09-05 00:37:14,882 INFO 72128 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:14,883 INFO 72128 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:14,995 INFO 72128 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:14,997 INFO 72128 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:14,998 INFO 72128 [egg-security] use noopen middleware
+2020-09-05 00:37:14,999 INFO 72128 [egg-security] use nosniff middleware
+2020-09-05 00:37:14,999 INFO 72128 [egg-security] use xssProtection middleware
+2020-09-05 00:37:15,000 INFO 72128 [egg-security] use xframe middleware
+2020-09-05 00:37:15,000 INFO 72128 [egg-security] use dta middleware
+2020-09-05 00:37:15,000 INFO 72128 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:15,012 INFO 72128 [egg:core] dump config after load, 4ms
+2020-09-05 00:37:15,026 INFO 72128 [egg-watcher:application] watcher start success
+2020-09-05 00:37:15,028 INFO 72128 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:15 GMT+0800 (中国标准时间)
+2020-09-05 00:37:15,034 INFO 72128 [egg:core] dump config after ready, 5ms
+2020-09-05 00:37:17,804 INFO 108160 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:17,827 INFO 108160 [egg-multipart] file mode enable
+2020-09-05 00:37:17,827 INFO 108160 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:17,827 INFO 108160 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:17,938 INFO 108160 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:17,940 INFO 108160 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:17,941 INFO 108160 [egg-security] use noopen middleware
+2020-09-05 00:37:17,942 INFO 108160 [egg-security] use nosniff middleware
+2020-09-05 00:37:17,942 INFO 108160 [egg-security] use xssProtection middleware
+2020-09-05 00:37:17,942 INFO 108160 [egg-security] use xframe middleware
+2020-09-05 00:37:17,943 INFO 108160 [egg-security] use dta middleware
+2020-09-05 00:37:17,943 INFO 108160 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:17,955 INFO 108160 [egg:core] dump config after load, 3ms
+2020-09-05 00:37:17,968 INFO 108160 [egg-watcher:application] watcher start success
+2020-09-05 00:37:17,970 INFO 108160 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:17 GMT+0800 (中国标准时间)
+2020-09-05 00:37:17,976 INFO 108160 [egg:core] dump config after ready, 5ms
+2020-09-05 00:37:23,595 INFO 77928 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:23,618 INFO 77928 [egg-multipart] file mode enable
+2020-09-05 00:37:23,618 INFO 77928 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:23,618 INFO 77928 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:23,726 INFO 77928 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:23,728 INFO 77928 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:23,729 INFO 77928 [egg-security] use noopen middleware
+2020-09-05 00:37:23,730 INFO 77928 [egg-security] use nosniff middleware
+2020-09-05 00:37:23,730 INFO 77928 [egg-security] use xssProtection middleware
+2020-09-05 00:37:23,731 INFO 77928 [egg-security] use xframe middleware
+2020-09-05 00:37:23,731 INFO 77928 [egg-security] use dta middleware
+2020-09-05 00:37:23,731 INFO 77928 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:23,743 INFO 77928 [egg:core] dump config after load, 4ms
+2020-09-05 00:37:23,756 INFO 77928 [egg-watcher:application] watcher start success
+2020-09-05 00:37:23,758 INFO 77928 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:23 GMT+0800 (中国标准时间)
+2020-09-05 00:37:23,765 INFO 77928 [egg:core] dump config after ready, 6ms
+2020-09-05 00:37:28,663 INFO 107176 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:28,686 INFO 107176 [egg-multipart] file mode enable
+2020-09-05 00:37:28,686 INFO 107176 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:28,686 INFO 107176 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:28,799 INFO 107176 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:28,801 INFO 107176 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:28,801 INFO 107176 [egg-security] use noopen middleware
+2020-09-05 00:37:28,802 INFO 107176 [egg-security] use nosniff middleware
+2020-09-05 00:37:28,803 INFO 107176 [egg-security] use xssProtection middleware
+2020-09-05 00:37:28,803 INFO 107176 [egg-security] use xframe middleware
+2020-09-05 00:37:28,804 INFO 107176 [egg-security] use dta middleware
+2020-09-05 00:37:28,804 INFO 107176 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:28,816 INFO 107176 [egg:core] dump config after load, 5ms
+2020-09-05 00:37:28,829 INFO 107176 [egg-watcher:application] watcher start success
+2020-09-05 00:37:28,831 INFO 107176 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:28 GMT+0800 (中国标准时间)
+2020-09-05 00:37:28,837 INFO 107176 [egg:core] dump config after ready, 5ms
+2020-09-05 00:37:54,080 INFO 105940 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:54,104 INFO 105940 [egg-multipart] file mode enable
+2020-09-05 00:37:54,104 INFO 105940 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:54,104 INFO 105940 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:54,216 INFO 105940 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:54,218 INFO 105940 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:54,219 INFO 105940 [egg-security] use noopen middleware
+2020-09-05 00:37:54,220 INFO 105940 [egg-security] use nosniff middleware
+2020-09-05 00:37:54,220 INFO 105940 [egg-security] use xssProtection middleware
+2020-09-05 00:37:54,221 INFO 105940 [egg-security] use xframe middleware
+2020-09-05 00:37:54,221 INFO 105940 [egg-security] use dta middleware
+2020-09-05 00:37:54,221 INFO 105940 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:54,233 INFO 105940 [egg:core] dump config after load, 4ms
+2020-09-05 00:37:54,247 INFO 105940 [egg-watcher:application] watcher start success
+2020-09-05 00:37:54,249 INFO 105940 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:54 GMT+0800 (中国标准时间)
+2020-09-05 00:37:54,255 INFO 105940 [egg:core] dump config after ready, 5ms
+2020-09-05 00:37:57,651 INFO 8388 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 00:37:57,674 INFO 8388 [egg-multipart] file mode enable
+2020-09-05 00:37:57,674 INFO 8388 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 00:37:57,674 INFO 8388 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 00:37:57,785 INFO 8388 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 00:37:57,787 INFO 8388 [egg-security] use methodnoallow middleware
+2020-09-05 00:37:57,787 INFO 8388 [egg-security] use noopen middleware
+2020-09-05 00:37:57,788 INFO 8388 [egg-security] use nosniff middleware
+2020-09-05 00:37:57,789 INFO 8388 [egg-security] use xssProtection middleware
+2020-09-05 00:37:57,789 INFO 8388 [egg-security] use xframe middleware
+2020-09-05 00:37:57,790 INFO 8388 [egg-security] use dta middleware
+2020-09-05 00:37:57,790 INFO 8388 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 00:37:57,802 INFO 8388 [egg:core] dump config after load, 4ms
+2020-09-05 00:37:57,816 INFO 8388 [egg-watcher:application] watcher start success
+2020-09-05 00:37:57,818 INFO 8388 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 00:37:57 GMT+0800 (中国标准时间)
+2020-09-05 00:37:57,824 INFO 8388 [egg:core] dump config after ready, 5ms
+2020-09-05 10:32:52,783 INFO 4932 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 10:32:52,809 INFO 4932 [egg-multipart] file mode enable
+2020-09-05 10:32:52,809 INFO 4932 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 10:32:52,809 INFO 4932 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 10:32:52,935 INFO 4932 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 10:32:52,937 INFO 4932 [egg-security] use methodnoallow middleware
+2020-09-05 10:32:52,938 INFO 4932 [egg-security] use noopen middleware
+2020-09-05 10:32:52,939 INFO 4932 [egg-security] use nosniff middleware
+2020-09-05 10:32:52,939 INFO 4932 [egg-security] use xssProtection middleware
+2020-09-05 10:32:52,940 INFO 4932 [egg-security] use xframe middleware
+2020-09-05 10:32:52,940 INFO 4932 [egg-security] use dta middleware
+2020-09-05 10:32:52,940 INFO 4932 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 10:32:52,957 INFO 4932 [egg:core] dump config after load, 4ms
+2020-09-05 10:32:52,977 INFO 4932 [egg-watcher:application] watcher start success
+2020-09-05 10:32:52,979 INFO 4932 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 10:32:52 GMT+0800 (中国标准时间)
+2020-09-05 10:32:52,988 INFO 4932 [egg:core] dump config after ready, 7ms
+2020-09-05 12:40:04,333 INFO 107280 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:40:04,358 INFO 107280 [egg-multipart] file mode enable
+2020-09-05 12:40:04,358 INFO 107280 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:40:04,358 INFO 107280 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:40:04,469 INFO 107280 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:40:04,471 INFO 107280 [egg-security] use methodnoallow middleware
+2020-09-05 12:40:04,472 INFO 107280 [egg-security] use noopen middleware
+2020-09-05 12:40:04,473 INFO 107280 [egg-security] use nosniff middleware
+2020-09-05 12:40:04,473 INFO 107280 [egg-security] use xssProtection middleware
+2020-09-05 12:40:04,474 INFO 107280 [egg-security] use xframe middleware
+2020-09-05 12:40:04,474 INFO 107280 [egg-security] use dta middleware
+2020-09-05 12:40:04,474 INFO 107280 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:40:04,487 INFO 107280 [egg:core] dump config after load, 5ms
+2020-09-05 12:40:04,499 INFO 107280 [egg-watcher:application] watcher start success
+2020-09-05 12:40:04,501 INFO 107280 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:40:04 GMT+0800 (中国标准时间)
+2020-09-05 12:40:04,507 INFO 107280 [egg:core] dump config after ready, 5ms
+2020-09-05 12:40:13,498 INFO 109004 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:40:13,522 INFO 109004 [egg-multipart] file mode enable
+2020-09-05 12:40:13,522 INFO 109004 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:40:13,523 INFO 109004 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:40:13,633 INFO 109004 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:40:13,635 INFO 109004 [egg-security] use methodnoallow middleware
+2020-09-05 12:40:13,636 INFO 109004 [egg-security] use noopen middleware
+2020-09-05 12:40:13,637 INFO 109004 [egg-security] use nosniff middleware
+2020-09-05 12:40:13,637 INFO 109004 [egg-security] use xssProtection middleware
+2020-09-05 12:40:13,638 INFO 109004 [egg-security] use xframe middleware
+2020-09-05 12:40:13,638 INFO 109004 [egg-security] use dta middleware
+2020-09-05 12:40:13,638 INFO 109004 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:40:13,650 INFO 109004 [egg:core] dump config after load, 4ms
+2020-09-05 12:40:13,664 INFO 109004 [egg-watcher:application] watcher start success
+2020-09-05 12:40:13,666 INFO 109004 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:40:13 GMT+0800 (中国标准时间)
+2020-09-05 12:40:13,672 INFO 109004 [egg:core] dump config after ready, 5ms
+2020-09-05 12:40:15,670 INFO 86316 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:40:15,694 INFO 86316 [egg-multipart] file mode enable
+2020-09-05 12:40:15,694 INFO 86316 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:40:15,695 INFO 86316 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:40:15,807 INFO 86316 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:40:15,809 INFO 86316 [egg-security] use methodnoallow middleware
+2020-09-05 12:40:15,809 INFO 86316 [egg-security] use noopen middleware
+2020-09-05 12:40:15,810 INFO 86316 [egg-security] use nosniff middleware
+2020-09-05 12:40:15,811 INFO 86316 [egg-security] use xssProtection middleware
+2020-09-05 12:40:15,811 INFO 86316 [egg-security] use xframe middleware
+2020-09-05 12:40:15,812 INFO 86316 [egg-security] use dta middleware
+2020-09-05 12:40:15,812 INFO 86316 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:40:15,825 INFO 86316 [egg:core] dump config after load, 5ms
+2020-09-05 12:40:15,839 INFO 86316 [egg-watcher:application] watcher start success
+2020-09-05 12:40:15,841 INFO 86316 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:40:15 GMT+0800 (中国标准时间)
+2020-09-05 12:40:15,848 INFO 86316 [egg:core] dump config after ready, 6ms
+2020-09-05 12:41:08,780 INFO 22328 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:41:08,804 INFO 22328 [egg-multipart] file mode enable
+2020-09-05 12:41:08,804 INFO 22328 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:41:08,804 INFO 22328 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:41:08,917 INFO 22328 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:41:08,919 INFO 22328 [egg-security] use methodnoallow middleware
+2020-09-05 12:41:08,919 INFO 22328 [egg-security] use noopen middleware
+2020-09-05 12:41:08,920 INFO 22328 [egg-security] use nosniff middleware
+2020-09-05 12:41:08,921 INFO 22328 [egg-security] use xssProtection middleware
+2020-09-05 12:41:08,921 INFO 22328 [egg-security] use xframe middleware
+2020-09-05 12:41:08,921 INFO 22328 [egg-security] use dta middleware
+2020-09-05 12:41:08,921 INFO 22328 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:41:08,934 INFO 22328 [egg:core] dump config after load, 4ms
+2020-09-05 12:41:08,947 INFO 22328 [egg-watcher:application] watcher start success
+2020-09-05 12:41:08,949 INFO 22328 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:41:08 GMT+0800 (中国标准时间)
+2020-09-05 12:41:08,956 INFO 22328 [egg:core] dump config after ready, 6ms
+2020-09-05 12:41:52,534 INFO 105148 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:41:52,562 INFO 105148 [egg-multipart] file mode enable
+2020-09-05 12:41:52,562 INFO 105148 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:41:52,563 INFO 105148 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:41:52,688 INFO 105148 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:41:52,691 INFO 105148 [egg-security] use methodnoallow middleware
+2020-09-05 12:41:52,691 INFO 105148 [egg-security] use noopen middleware
+2020-09-05 12:41:52,692 INFO 105148 [egg-security] use nosniff middleware
+2020-09-05 12:41:52,693 INFO 105148 [egg-security] use xssProtection middleware
+2020-09-05 12:41:52,693 INFO 105148 [egg-security] use xframe middleware
+2020-09-05 12:41:52,694 INFO 105148 [egg-security] use dta middleware
+2020-09-05 12:41:52,694 INFO 105148 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:41:52,708 INFO 105148 [egg:core] dump config after load, 6ms
+2020-09-05 12:41:52,724 INFO 105148 [egg-watcher:application] watcher start success
+2020-09-05 12:41:52,726 INFO 105148 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:41:52 GMT+0800 (中国标准时间)
+2020-09-05 12:41:52,734 INFO 105148 [egg:core] dump config after ready, 7ms
+2020-09-05 12:42:09,586 INFO 109076 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:42:09,608 INFO 109076 [egg-multipart] file mode enable
+2020-09-05 12:42:09,608 INFO 109076 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:42:09,609 INFO 109076 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:42:09,720 INFO 109076 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:42:09,722 INFO 109076 [egg-security] use methodnoallow middleware
+2020-09-05 12:42:09,722 INFO 109076 [egg-security] use noopen middleware
+2020-09-05 12:42:09,723 INFO 109076 [egg-security] use nosniff middleware
+2020-09-05 12:42:09,724 INFO 109076 [egg-security] use xssProtection middleware
+2020-09-05 12:42:09,724 INFO 109076 [egg-security] use xframe middleware
+2020-09-05 12:42:09,725 INFO 109076 [egg-security] use dta middleware
+2020-09-05 12:42:09,725 INFO 109076 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:42:09,737 INFO 109076 [egg:core] dump config after load, 5ms
+2020-09-05 12:42:09,750 INFO 109076 [egg-watcher:application] watcher start success
+2020-09-05 12:42:09,752 INFO 109076 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:42:09 GMT+0800 (中国标准时间)
+2020-09-05 12:42:09,758 INFO 109076 [egg:core] dump config after ready, 5ms
+2020-09-05 12:42:26,582 INFO 108496 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:42:26,609 INFO 108496 [egg-multipart] file mode enable
+2020-09-05 12:42:26,609 INFO 108496 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:42:26,609 INFO 108496 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:42:26,724 INFO 108496 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:42:26,726 INFO 108496 [egg-security] use methodnoallow middleware
+2020-09-05 12:42:26,727 INFO 108496 [egg-security] use noopen middleware
+2020-09-05 12:42:26,728 INFO 108496 [egg-security] use nosniff middleware
+2020-09-05 12:42:26,728 INFO 108496 [egg-security] use xssProtection middleware
+2020-09-05 12:42:26,729 INFO 108496 [egg-security] use xframe middleware
+2020-09-05 12:42:26,729 INFO 108496 [egg-security] use dta middleware
+2020-09-05 12:42:26,730 INFO 108496 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:42:26,742 INFO 108496 [egg:core] dump config after load, 4ms
+2020-09-05 12:42:26,757 INFO 108496 [egg-watcher:application] watcher start success
+2020-09-05 12:42:26,759 INFO 108496 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:42:26 GMT+0800 (中国标准时间)
+2020-09-05 12:42:26,768 INFO 108496 [egg:core] dump config after ready, 8ms
+2020-09-05 12:43:02,804 INFO 35848 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 12:43:02,835 INFO 35848 [egg-multipart] file mode enable
+2020-09-05 12:43:02,835 INFO 35848 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 12:43:02,835 INFO 35848 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 12:43:02,978 INFO 35848 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 12:43:02,981 INFO 35848 [egg-security] use methodnoallow middleware
+2020-09-05 12:43:02,982 INFO 35848 [egg-security] use noopen middleware
+2020-09-05 12:43:02,983 INFO 35848 [egg-security] use nosniff middleware
+2020-09-05 12:43:02,983 INFO 35848 [egg-security] use xssProtection middleware
+2020-09-05 12:43:02,984 INFO 35848 [egg-security] use xframe middleware
+2020-09-05 12:43:02,984 INFO 35848 [egg-security] use dta middleware
+2020-09-05 12:43:02,984 INFO 35848 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 12:43:02,999 INFO 35848 [egg:core] dump config after load, 6ms
+2020-09-05 12:43:03,019 INFO 35848 [egg-watcher:application] watcher start success
+2020-09-05 12:43:03,022 INFO 35848 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 12:43:03 GMT+0800 (中国标准时间)
+2020-09-05 12:43:03,031 INFO 35848 [egg:core] dump config after ready, 8ms
+2020-09-05 13:58:46,891 INFO 12768 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\朱大哥\\Desktop\\IYIshopping\\IYI_server\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-05 13:58:46,914 INFO 12768 [egg-multipart] file mode enable
+2020-09-05 13:58:46,914 INFO 12768 [egg-multipart] will save temporary files to "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test", cleanup job cron: "0 30 4 * * *"
+2020-09-05 13:58:46,914 INFO 12768 [egg-mysql] connecting root@localhost:3306/iyidatabase
+2020-09-05 13:58:47,031 INFO 12768 [egg-static] starting static serve /public/ -> C:\Users\朱大哥\Desktop\IYIshopping\IYI_server\app\public
+2020-09-05 13:58:47,033 INFO 12768 [egg-security] use methodnoallow middleware
+2020-09-05 13:58:47,034 INFO 12768 [egg-security] use noopen middleware
+2020-09-05 13:58:47,035 INFO 12768 [egg-security] use nosniff middleware
+2020-09-05 13:58:47,035 INFO 12768 [egg-security] use xssProtection middleware
+2020-09-05 13:58:47,036 INFO 12768 [egg-security] use xframe middleware
+2020-09-05 13:58:47,036 INFO 12768 [egg-security] use dta middleware
+2020-09-05 13:58:47,036 INFO 12768 [egg-security] compose 6 middlewares into one security middleware
+2020-09-05 13:58:47,050 INFO 12768 [egg:core] dump config after load, 5ms
+2020-09-05 13:58:47,064 INFO 12768 [egg-watcher:application] watcher start success
+2020-09-05 13:58:47,066 INFO 12768 [egg-mysql] instance[0] status OK, rds currentTime: Sat Sep 05 2020 13:58:47 GMT+0800 (中国标准时间)
+2020-09-05 13:58:47,075 INFO 12768 [egg:core] dump config after ready, 7ms

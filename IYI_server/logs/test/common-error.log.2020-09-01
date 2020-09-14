@@ -1,0 +1,68 @@
+2020-09-01 22:02:18,163 ERROR 164388 [-/127.0.0.1/-/11ms POST /deleteUser] nodejs.TypeError: Cannot read property 'userid' of undefined
+    at AdminController.deleteUser (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\adminController.js:12:37)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 164388
+hostname: LAPTOP-DG56T37L
+
+2020-09-01 22:02:49,115 ERROR 164388 [-/127.0.0.1/-/1ms POST /deleteUser] nodejs.TypeError: Cannot read property 'userid' of undefined
+    at AdminController.deleteUser (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\adminController.js:12:37)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 164388
+hostname: LAPTOP-DG56T37L
+
+2020-09-01 22:03:52,448 ERROR 35068 nodejs.ClusterClientNoResponseError: client no response in 73583ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 35068
+hostname: LAPTOP-DG56T37L
+
+2020-09-01 22:06:00,996 ERROR 27040 [-/127.0.0.1/-/11ms POST /deleteUser] nodejs.TypeError: Cannot read property 'userid' of undefined
+    at AdminController.deleteUser (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\adminController.js:12:37)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 27040
+hostname: LAPTOP-DG56T37L
+
+2020-09-01 22:06:35,194 ERROR 27040 [-/127.0.0.1/-/2ms POST /deleteUser] nodejs.TypeError: Cannot read property 'userid' of undefined
+    at AdminController.deleteUser (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\adminController.js:12:37)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 27040
+hostname: LAPTOP-DG56T37L
+

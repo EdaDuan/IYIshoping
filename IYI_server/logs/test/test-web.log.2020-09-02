@@ -1,0 +1,565 @@
+2020-09-02 01:27:02,389 ERROR 136704 [-/127.0.0.1/-/4ms GET /showproduct?kw=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NaN,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' limit NaN,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NaN,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' limit NaN,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 136704
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 01:28:36,578 ERROR 121112 [-/127.0.0.1/-/4ms GET /showproduct?kw=%E5%A4%8F%E8%A3%85] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NaN,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%夏装%' or name like '%夏装%' limit NaN,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NaN,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%夏装%' or name like '%夏装%' limit NaN,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 121112
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 01:28:40,173 ERROR 121112 [-/127.0.0.1/-/1ms GET /searchorderbysale?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 121112
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 01:28:46,613 ERROR 121112 [-/127.0.0.1/-/1ms GET /searchorderbyprice?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by price limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by price limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 121112
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:07,758 ERROR 85848 [-/127.0.0.1/-/2ms GET /searchorderbysyn?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:08,148 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysale?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:08,770 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbyprice?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by price limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by price limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:09,393 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysale?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:17,291 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysale?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:32,755 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysale?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:33,540 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysyn?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:38:34,329 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbyprice?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by price limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by price limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:39:18,298 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysyn?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:39:19,076 ERROR 85848 [-/127.0.0.1/-/2ms GET /searchorderbysale?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by sales limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:39:19,642 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbyprice?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by price limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by price limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 11:51:11,724 ERROR 85848 [-/127.0.0.1/-/1ms GET /searchorderbysyn?kw=&page=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1
+    at Query.Sequence._packetToError (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    --------------------
+    at Pool.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2,2' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from goods where descp like '%%' or name like '%%' order by desimg limit -2,2"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 85848
+hostname: LAPTOP-DG56T37L
+
+2020-09-02 17:26:45,835 ERROR 132236 [-/127.0.0.1/-/11ms POST /updataBanner] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\朱大哥\AppData\Local\Temp\egg-multipart-tmp\test\2020\09\02\17\af97d604-0fd2-4dec-a1e1-b4c083e87476.jpg' -> 'C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app/public/uploadPic/1599038805831aaa.jpg'
+    at Object.copyFileSync (fs.js:1941:3)
+    at uploadPicService.updataBanner (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\service\uploadPicService.js:38:16)
+    at uploadPicController.updataBanner (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\app\controller\uploadPicController.js:6:51)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\朱大哥\Desktop\IYIshopping\iyiserver\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+errno: -4058
+syscall: "copyfile"
+code: "ENOENT"
+path: "C:\\Users\\朱大哥\\AppData\\Local\\Temp\\egg-multipart-tmp\\test\\2020\\09\\02\\17\\af97d604-0fd2-4dec-a1e1-b4c083e87476.jpg"
+dest: "C:\\Users\\朱大哥\\Desktop\\IYIshopping\\iyiserver\\app/public/uploadPic/1599038805831aaa.jpg"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ENOENTError"
+pid: 132236
+hostname: LAPTOP-DG56T37L
+
