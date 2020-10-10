@@ -6,7 +6,7 @@
 
 服务器默认配置的ip为127.0.0.1 端口号为7001（server端 config/config.default.js） axios请求 默认全局配置为 http://127.0.0.1:7001 (前后端入口文件main.js)
 
-数据库默认配置 host: 'localhost', //数据库的主机地址 port: '3306', //数据库端口号 user: 'root', // 数据库账户 password: 'admin', //数据库密码 database: 'iyidatabase', //数据库名称 （配置位置： server端 config/config.default.js）
+数据库默认配置 host: 'localhost', //数据库的主机地址 port: '3306', //数据库端口号 user: 'root', // 数据库账户 password: '123456', //数据库密码 database: 'iyidatabase', //数据库名称 （配置位置： server端 config/config.default.js）
 
 前后端上传图片资源之后，存储后的网络访问路径固定为"http://localhost:7001" + toFileName; （如需修改，在server端 service/uploadPicService.js 和service/personService.js这两个相关文件更改） 如果需要上传之后能够访问资源，建议全部使用默认配置。
 
